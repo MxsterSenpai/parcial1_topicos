@@ -3,21 +3,21 @@
 ## Problema #1: Filtros y Detectores
 En esta sección se utilizará el archivo Problema1.jpg. Cargue la imagen indicada en su programa. Deberá aplicar a esta imagen una serie de filtros de la siguiente manera.
 
-    1.	Cree una copia de la imagen original y aplique un filtro de Gauss de tamaño 25 × 25.
+    <p>1.	Cree una copia de la imagen original y aplique un filtro de Gauss de tamaño 25 × 25.<br>
 
-    2.	Cree una copia de la imagen y aplique un filtro bilateral con diámetro de 39.
+    2.	Cree una copia de la imagen y aplique un filtro bilateral con diámetro de 39.<br>
 
-    3.	En este punto tendrá 3 imágenes (original, Gauss y Bilateral).
+    3.	En este punto tendrá 3 imágenes (original, Gauss y Bilateral).<br>
 
-    4.	Aplique a cada una de estas imágenes el detector MSER y genere el resultado con las regiones identificadas para cada imagen, las regiones deben ser marcadas con colores diferentes. En esta detección trate de enfocarse en detectar las letras contenidas en la imagen.
+    4.	Aplique a cada una de estas imágenes el detector MSER y genere el resultado con las regiones identificadas para cada imagen, las regiones deben ser marcadas con colores diferentes. En esta detección trate de enfocarse en detectar las letras contenidas en la imagen.<br>
 
-    5.	Una vez creadas las imágenes de las regiones, agregue a cada una un texto con su nombre en la posición (10, 100) y con la cantidad de regiones identificadas, en la posición (2000, 1300) de la imagen, utilizando la función presentada en la sección 0.1. Cambie también el color de la fuente a uno de su agrado.
+    5.	Una vez creadas las imágenes de las regiones, agregue a cada una un texto con su nombre en la posición (10, 100) y con la cantidad de regiones identificadas, en la posición (2000, 1300) de la imagen, utilizando la función presentada en la sección 0.1. Cambie también el color de la fuente a uno de su agrado.<br>
     
-    6.	Presente una matriz utilizando matplotlib con las 6 imágenes generadas adecuadamente rotuladas.
+    6.	Presente una matriz utilizando matplotlib con las 6 imágenes generadas adecuadamente rotuladas.<br>
 
-    7.	Agregue el código para que se almacene esta matriz en su computadora, con el nombre” Nombre Apellido P1.png”, adjunte esta imagen en su PDF de resultados.
+    7.	Agregue el código para que se almacene esta matriz en su computadora, con el nombre” Nombre Apellido P1.png”, adjunte esta imagen en su PDF de resultados.<br>
 
-    8.	Agregue el código para que se visualice el resultado en tiempo de ejecución.
+    8.	Agregue el código para que se visualice el resultado en tiempo de ejecución.</p>
 
 ## Problema #2: Transformada de Hough
 En esta sección se utilizará el archivo Problema2.jpg. Cargue la imagen indicada en su programa (debe ser a continuación del código del problema anterior). En este caso se aplicará la Transformada de Hough para identificar Círculos en la imagen indicada.
